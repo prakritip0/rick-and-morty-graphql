@@ -7,3 +7,11 @@
   flex-wrap: wrap;
   justify-content: space-evenly ;
 }
+
+.character{
+  display: flex;
+}
+
+.character-content{
+  margin-left: 2rem;
+}
