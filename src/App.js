@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import Characater from "./pages/Characater";
+import Characater from "./pages/CharacterDetails";
 import CharactersList from "./pages/CharactersList";
 import Search from "./pages/Search";
 
