@@ -2,3 +2,8 @@
   max-width: 70rem;
   margin: 10rem auto;
 }
+.charactersList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between ;
+}

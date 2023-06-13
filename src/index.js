@@ -6,6 +6,8 @@ import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client'
 
 // https://rickandmortyapi.com/graphql
 
+// lazy queries
+
 const client = new ApolloClient({
   uri: 'https://rickandmortyapi.com/graphql/',
   cache: new InMemoryCache()
