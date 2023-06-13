@@ -8,6 +8,7 @@ export default function Characater() {
     console.log(data, loading, error);
     if (loading) return <p>Loading....</p>
     if (error) return <p>Something went wrong</p>
+    if(!data.character) return <p>cant find character</p>
 
     return (
         <div className='character'>
