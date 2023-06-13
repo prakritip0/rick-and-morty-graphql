@@ -7,7 +7,6 @@ import { useCharacter } from '../hooks/useCharacter'
 export default function Characater() {
     const { id } = useParams();
     const { loading, error, data } = useCharacter(id);
-    console.log(data, loading, error);
     if (loading) return <Loading />
     if (error) return <Error />
     if (!data.character) return <Error />
